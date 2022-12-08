@@ -36,12 +36,12 @@ def upload_file():
 	if request.method == 'POST':
 
 		# storing file
-		f = request.files['file']
-		fname = secure_filename(f.filename)
-		f.save("assests/" + fname)
+		#f = request.files['file']
+		#fname = secure_filename(f.filename)
+		#f.save("assests/" + fname)
 
 		# prediction
-		result = return_prediction(model, "assests/" + fname)
+		result = return_prediction(model, request.files['file'])#"assests/" + fname)
 		return result
 	return "nothing"
 
