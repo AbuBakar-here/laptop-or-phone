@@ -23,7 +23,7 @@ Make sure to use **Deployment/requirements.txt** before running below commands.
 
 ## Demo
 
-https://laptop-or-phone.herokuapp.com/
+[https://abubakarhere-laptop-or-phone.hf.space/](https://abubakarhere-laptop-or-phone.hf.space/)
 
 
 ## FAQ
